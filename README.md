@@ -1,5 +1,8 @@
 # Behind the Words
 
+## Install Dependencies
+Run `pip install -r requirements.txt`
+
 ## Pretrained Models
 Models for CNN, XGBoost, and XGBoost + CNN have already been trained. \
 **You can skip to [`Step 4 (Backend Server)`](#step-4-backend-server), unless you want to preprocess, and train on your own.**
