@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package essayembedding;
+
+message EssayEmbedding {
+    string _id = 1;
+    string _text = 2;
+
+
+    repeated WordEmbedding embedding = 3;
+}
+
+message WordEmbedding {
+  repeated float value = 1 [packed=true];
+}

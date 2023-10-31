@@ -1,0 +1,4 @@
+**/__pycache__
+
+# Do not include because word-embedding files are HUGE
+data/processed-v1/cnn/word-embedding
